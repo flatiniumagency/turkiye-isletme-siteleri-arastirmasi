@@ -1,0 +1,18 @@
+﻿# Flatinium — Ankara, İstanbul, İzmir işletme siteleri taraması, Ekim 2026. Değerler yüzde (%). Kaynak gösterilerek serbestçe kullanılabilir (CC BY 4.0).
+# Yöntem: https://flatinium.com/blog/ankara-istanbul-izmir-isletme-siteleri-arastirmasi-2026 · İşletme listesi © OpenStreetMap katkıcıları (ODbL)
+sehir,segment,n,HTTPS ile açılıyor,Mobil uyum etiketi var,Meta açıklama yok,H1 başlığı yok,Birden fazla H1,İşletme şeması (yapısal veri) yok,Sosyal paylaşım önizlemesi (og) yok,Telefon tıklanınca aranmıyor,WhatsApp bağlantısı yok,Site haritası yok,llms.txt var,Yapay zekâ botlarından birini engelliyor,Ana sayfa 3 sn üstünde yanıt veriyor
+Ankara,Tümü,313,95,97,35,42,17,63,41,50,76,37,16,1,10
+Ankara,Yeme-içme,62,98,100,37,35,19,65,42,63,89,42,19,0,3
+Ankara,Hizmet (profesyonel + sağlık),57,95,96,28,40,5,56,35,39,61,30,11,4,9
+Ankara,Perakende ve zanaat,128,92,98,32,47,15,58,34,49,69,34,18,2,14
+Ankara,Büyük şirket / zincir,66,97,94,47,42,29,76,59,52,91,47,15,0,8
+İstanbul,Tümü,416,94,97,31,47,16,62,42,52,65,36,18,2,7
+İstanbul,Yeme-içme,103,95,98,35,42,17,67,42,54,75,39,19,0,7
+İstanbul,Hizmet (profesyonel + sağlık),75,89,96,27,35,23,55,31,39,51,33,21,3,9
+İstanbul,Perakende ve zanaat,170,96,96,28,54,13,58,44,51,57,32,17,1,6
+İstanbul,Büyük şirket / zincir,68,93,96,40,53,15,75,53,65,88,44,12,4,9
+İzmir,Tümü,208,96,96,38,44,17,69,41,50,68,38,16,3,7
+İzmir,Yeme-içme,68,97,96,51,50,16,75,47,63,82,44,13,4,9
+İzmir,Hizmet (profesyonel + sağlık),27,89,96,22,41,15,70,37,37,63,33,22,7,7
+İzmir,Perakende ve zanaat,79,96,94,34,39,16,66,38,44,57,30,15,1,5
+İzmir,Büyük şirket / zincir,34,100,100,32,47,24,65,38,50,68,44,18,0,6

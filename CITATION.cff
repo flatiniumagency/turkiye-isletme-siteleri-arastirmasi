@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Bu veriyi kullanırsanız lütfen aşağıdaki biçimde kaynak gösterin."
+title: "Türkiye işletme siteleri araştırması — Ankara, İstanbul, İzmir (Ekim 2026)"
+type: dataset
+authors:
+  - name: "Flatinium"
+    website: "https://flatinium.com"
+    email: "info@flatinium.com"
+    city: "Ankara"
+    country: "TR"
+date-released: "2026-10-02"
+version: "2026.10"
+license: CC-BY-4.0
+url: "https://flatinium.com/blog/ankara-istanbul-izmir-isletme-siteleri-arastirmasi-2026"
+repository-code: "https://github.com/flatiniumagency/turkiye-isletme-siteleri-arastirmasi"
+keywords:
+  - SEO
+  - local SEO
+  - structured data
+  - open data
+  - Türkiye
+  - Ankara
+  - İstanbul
+  - İzmir
+abstract: "937 işletme sitesinin (Ankara 313, İstanbul 416, İzmir 208) ana sayfası aynı ölçütlerle tarandı: tıklanır telefon, WhatsApp, işletme şeması, H1, meta açıklama, Open Graph, site haritası, llms.txt, yapay zekâ botu engeli, HTTPS, mobil uyum ve yanıt süresi. İşletme listesi OpenStreetMap (ODbL)."

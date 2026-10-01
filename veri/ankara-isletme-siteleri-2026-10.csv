@@ -1,0 +1,16 @@
+﻿# Flatinium — Ankara işletme siteleri taraması, 1 Ekim 2026. Değerler yüzde (%). Kaynak gösterilerek serbestçe kullanılabilir.
+# Yöntem: https://flatinium.com/blog/ankara-isletme-siteleri-seo-arastirmasi-2026 · İşletme listesi © OpenStreetMap katkıcıları (ODbL)
+olcut,tumu_n313,yeme_icme_n62,hizmet_n57,perakende_zanaat_n128,buyuk_sirket_zincir_n66
+https_ile_aciliyor,95,98,95,92,97
+mobil_uyum_etiketi_var,97,100,96,98,94
+meta_aciklama_yok,35,37,28,32,47
+h1_yok,42,35,40,47,42
+birden_fazla_h1,17,19,5,15,29
+isletme_semasi_yok,63,65,56,58,76
+og_onizleme_yok,41,42,35,34,59
+telefon_tiklanmiyor,50,63,39,49,52
+whatsapp_baglantisi_yok,76,89,61,69,91
+site_haritasi_yok,37,42,30,34,47
+llms_txt_var,16,19,11,18,15
+yapay_zeka_botu_engelli,1,0,4,2,0
+ana_sayfa_3_sn_ustu,10,3,9,14,8

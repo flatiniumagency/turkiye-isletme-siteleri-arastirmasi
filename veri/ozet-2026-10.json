@@ -1,0 +1,577 @@
+{
+ "aciklama": "Ankara, İstanbul, İzmir işletme siteleri taraması (Ekim 2026). Yüzdeler tam sayı, her segmentin analiz edilen siteleri içinde. Site adları yer almaz. Kaynak: strateji/arastirma-uc-sehir-2026-10.md",
+ "sehirler": {
+  "Ankara": {
+   "taranan": 439,
+   "acilmayan": 95,
+   "acilmayan_yuzde": 22,
+   "hata_turleri": {
+    "URLError": 68,
+    "HTTPError": 24,
+    "RemoteDisconnected": 2,
+    "TimeoutError": 1
+   },
+   "analiz_edilen": 313,
+   "cms": {
+    "wordpress": 104,
+    "diğer": 192,
+    "ideasoft": 4,
+    "wix": 9,
+    "shopify": 1,
+    "ticimax": 3
+   },
+   "llms_var": 51,
+   "llms_wordpress": 20,
+   "sure_medyan_sn": 0.69,
+   "okul_turu_perakende_icinde": 7,
+   "tur_ilk15": [
+    [
+     "company",
+     41
+    ],
+    [
+     "restaurant",
+     37
+    ],
+    [
+     "cafe",
+     20
+    ],
+    [
+     "supermarket",
+     11
+    ],
+    [
+     "mall",
+     11
+    ],
+    [
+     "it",
+     10
+    ],
+    [
+     "estate_agent",
+     10
+    ],
+    [
+     "lawyer",
+     9
+    ],
+    [
+     "electrical",
+     8
+    ],
+    [
+     "trade",
+     8
+    ],
+    [
+     "school",
+     7
+    ],
+    [
+     "electronics",
+     6
+    ],
+    [
+     "wholesale",
+     5
+    ],
+    [
+     "coffee",
+     5
+    ],
+    [
+     "hardware",
+     5
+    ]
+   ],
+   "segmentler": {
+    "Tümü": {
+     "n": 313,
+     "olcutler": {
+      "HTTPS ile açılıyor": 95,
+      "Mobil uyum etiketi var": 97,
+      "Meta açıklama yok": 35,
+      "H1 başlığı yok": 42,
+      "Birden fazla H1": 17,
+      "İşletme şeması (yapısal veri) yok": 63,
+      "Sosyal paylaşım önizlemesi (og) yok": 41,
+      "Telefon tıklanınca aranmıyor": 50,
+      "WhatsApp bağlantısı yok": 76,
+      "Site haritası yok": 37,
+      "llms.txt var": 16,
+      "Yapay zekâ botlarından birini engelliyor": 1,
+      "Ana sayfa 3 sn üstünde yanıt veriyor": 10
+     }
+    },
+    "Yeme-içme": {
+     "n": 62,
+     "olcutler": {
+      "HTTPS ile açılıyor": 98,
+      "Mobil uyum etiketi var": 100,
+      "Meta açıklama yok": 37,
+      "H1 başlığı yok": 35,
+      "Birden fazla H1": 19,
+      "İşletme şeması (yapısal veri) yok": 65,
+      "Sosyal paylaşım önizlemesi (og) yok": 42,
+      "Telefon tıklanınca aranmıyor": 63,
+      "WhatsApp bağlantısı yok": 89,
+      "Site haritası yok": 42,
+      "llms.txt var": 19,
+      "Yapay zekâ botlarından birini engelliyor": 0,
+      "Ana sayfa 3 sn üstünde yanıt veriyor": 3
+     }
+    },
+    "Hizmet (profesyonel + sağlık)": {
+     "n": 57,
+     "olcutler": {
+      "HTTPS ile açılıyor": 95,
+      "Mobil uyum etiketi var": 96,
+      "Meta açıklama yok": 28,
+      "H1 başlığı yok": 40,
+      "Birden fazla H1": 5,
+      "İşletme şeması (yapısal veri) yok": 56,
+      "Sosyal paylaşım önizlemesi (og) yok": 35,
+      "Telefon tıklanınca aranmıyor": 39,
+      "WhatsApp bağlantısı yok": 61,
+      "Site haritası yok": 30,
+      "llms.txt var": 11,
+      "Yapay zekâ botlarından birini engelliyor": 4,
+      "Ana sayfa 3 sn üstünde yanıt veriyor": 9
+     }
+    },
+    "Perakende ve zanaat": {
+     "n": 128,
+     "olcutler": {
+      "HTTPS ile açılıyor": 92,
+      "Mobil uyum etiketi var": 98,
+      "Meta açıklama yok": 32,
+      "H1 başlığı yok": 47,
+      "Birden fazla H1": 15,
+      "İşletme şeması (yapısal veri) yok": 58,
+      "Sosyal paylaşım önizlemesi (og) yok": 34,
+      "Telefon tıklanınca aranmıyor": 49,
+      "WhatsApp bağlantısı yok": 69,
+      "Site haritası yok": 34,
+      "llms.txt var": 18,
+      "Yapay zekâ botlarından birini engelliyor": 2,
+      "Ana sayfa 3 sn üstünde yanıt veriyor": 14
+     }
+    },
+    "Büyük şirket / zincir": {
+     "n": 66,
+     "olcutler": {
+      "HTTPS ile açılıyor": 97,
+      "Mobil uyum etiketi var": 94,
+      "Meta açıklama yok": 47,
+      "H1 başlığı yok": 42,
+      "Birden fazla H1": 29,
+      "İşletme şeması (yapısal veri) yok": 76,
+      "Sosyal paylaşım önizlemesi (og) yok": 59,
+      "Telefon tıklanınca aranmıyor": 52,
+      "WhatsApp bağlantısı yok": 91,
+      "Site haritası yok": 47,
+      "llms.txt var": 15,
+      "Yapay zekâ botlarından birini engelliyor": 0,
+      "Ana sayfa 3 sn üstünde yanıt veriyor": 8
+     }
+    }
+   },
+   "osm": {
+    "osm_oge": 885,
+    "tekil_alan": 666,
+    "not": "Ankara olgu kartından"
+   },
+   "ornekleme": {
+    "ornekleme": false,
+    "not": "tümü tarandı (1 Ekim 2026)"
+   }
+  },
+  "İstanbul": {
+   "taranan": 600,
+   "acilmayan": 138,
+   "acilmayan_yuzde": 23,
+   "hata_turleri": {
+    "URLError": 103,
+    "HTTPError": 25,
+    "UnicodeEncodeError": 2,
+    "InvalidURL": 2,
+    "TimeoutError": 4,
+    "RemoteDisconnected": 2
+   },
+   "analiz_edilen": 416,
+   "cms": {
+    "diğer": 216,
+    "wordpress": 145,
+    "wix": 20,
+    "ideasoft": 8,
+    "ticimax": 17,
+    "shopify": 10
+   },
+   "llms_var": 73,
+   "llms_wordpress": 26,
+   "sure_medyan_sn": 0.7,
+   "okul_turu_perakende_icinde": 9,
+   "tur_ilk15": [
+    [
+     "restaurant",
+     67
+    ],
+    [
+     "company",
+     36
+    ],
+    [
+     "cafe",
+     28
+    ],
+    [
+     "clothes",
+     22
+    ],
+    [
+     "dentist",
+     20
+    ],
+    [
+     "mall",
+     11
+    ],
+    [
+     "school",
+     9
+    ],
+    [
+     "veterinary",
+     9
+    ],
+    [
+     "furniture",
+     9
+    ],
+    [
+     "car",
+     8
+    ],
+    [
+     "jewelry",
+     8
+    ],
+    [
+     "lawyer",
+     7
+    ],
+    [
+     "clinic",
+     7
+    ],
+    [
+     "kindergarten",
+     6
+    ],
+    [
+     "estate_agent",
+     6
+    ]
+   ],
+   "segmentler": {
+    "Tümü": {
+     "n": 416,
+     "olcutler": {
+      "HTTPS ile açılıyor": 94,
+      "Mobil uyum etiketi var": 97,
+      "Meta açıklama yok": 31,
+      "H1 başlığı yok": 47,
+      "Birden fazla H1": 16,
+      "İşletme şeması (yapısal veri) yok": 62,
+      "Sosyal paylaşım önizlemesi (og) yok": 42,
+      "Telefon tıklanınca aranmıyor": 52,
+      "WhatsApp bağlantısı yok": 65,
+      "Site haritası yok": 36,
+      "llms.txt var": 18,
+      "Yapay zekâ botlarından birini engelliyor": 2,
+      "Ana sayfa 3 sn üstünde yanıt veriyor": 7
+     }
+    },
+    "Yeme-içme": {
+     "n": 103,
+     "olcutler": {
+      "HTTPS ile açılıyor": 95,
+      "Mobil uyum etiketi var": 98,
+      "Meta açıklama yok": 35,
+      "H1 başlığı yok": 42,
+      "Birden fazla H1": 17,
+      "İşletme şeması (yapısal veri) yok": 67,
+      "Sosyal paylaşım önizlemesi (og) yok": 42,
+      "Telefon tıklanınca aranmıyor": 54,
+      "WhatsApp bağlantısı yok": 75,
+      "Site haritası yok": 39,
+      "llms.txt var": 19,
+      "Yapay zekâ botlarından birini engelliyor": 0,
+      "Ana sayfa 3 sn üstünde yanıt veriyor": 7
+     }
+    },
+    "Hizmet (profesyonel + sağlık)": {
+     "n": 75,
+     "olcutler": {
+      "HTTPS ile açılıyor": 89,
+      "Mobil uyum etiketi var": 96,
+      "Meta açıklama yok": 27,
+      "H1 başlığı yok": 35,
+      "Birden fazla H1": 23,
+      "İşletme şeması (yapısal veri) yok": 55,
+      "Sosyal paylaşım önizlemesi (og) yok": 31,
+      "Telefon tıklanınca aranmıyor": 39,
+      "WhatsApp bağlantısı yok": 51,
+      "Site haritası yok": 33,
+      "llms.txt var": 21,
+      "Yapay zekâ botlarından birini engelliyor": 3,
+      "Ana sayfa 3 sn üstünde yanıt veriyor": 9
+     }
+    },
+    "Perakende ve zanaat": {
+     "n": 170,
+     "olcutler": {
+      "HTTPS ile açılıyor": 96,
+      "Mobil uyum etiketi var": 96,
+      "Meta açıklama yok": 28,
+      "H1 başlığı yok": 54,
+      "Birden fazla H1": 13,
+      "İşletme şeması (yapısal veri) yok": 58,
+      "Sosyal paylaşım önizlemesi (og) yok": 44,
+      "Telefon tıklanınca aranmıyor": 51,
+      "WhatsApp bağlantısı yok": 57,
+      "Site haritası yok": 32,
+      "llms.txt var": 17,
+      "Yapay zekâ botlarından birini engelliyor": 1,
+      "Ana sayfa 3 sn üstünde yanıt veriyor": 6
+     }
+    },
+    "Büyük şirket / zincir": {
+     "n": 68,
+     "olcutler": {
+      "HTTPS ile açılıyor": 93,
+      "Mobil uyum etiketi var": 96,
+      "Meta açıklama yok": 40,
+      "H1 başlığı yok": 53,
+      "Birden fazla H1": 15,
+      "İşletme şeması (yapısal veri) yok": 75,
+      "Sosyal paylaşım önizlemesi (og) yok": 53,
+      "Telefon tıklanınca aranmıyor": 65,
+      "WhatsApp bağlantısı yok": 88,
+      "Site haritası yok": 44,
+      "llms.txt var": 12,
+      "Yapay zekâ botlarından birini engelliyor": 4,
+      "Ana sayfa 3 sn üstünde yanıt veriyor": 9
+     }
+    }
+   },
+   "osm": {
+    "sehir": "İstanbul",
+    "osm_oge": 4453,
+    "tekil_alan": 3424,
+    "osm_zaman": "2026-10-01T21:35:21Z"
+   },
+   "ornekleme": {
+    "sehir": "İstanbul",
+    "elemeden_sonra": 2502,
+    "taranan": 600,
+    "ornekleme": true,
+    "tohum": 20261002,
+    "tarih": "2026-10-02"
+   }
+  },
+  "İzmir": {
+   "taranan": 293,
+   "acilmayan": 68,
+   "acilmayan_yuzde": 23,
+   "hata_turleri": {
+    "URLError": 43,
+    "HTTPError": 24,
+    "TimeoutError": 1
+   },
+   "analiz_edilen": 208,
+   "cms": {
+    "diğer": 125,
+    "wordpress": 68,
+    "wix": 8,
+    "ticimax": 3,
+    "shopify": 3,
+    "ideasoft": 1
+   },
+   "llms_var": 33,
+   "llms_wordpress": 12,
+   "sure_medyan_sn": 0.74,
+   "okul_turu_perakende_icinde": 5,
+   "tur_ilk15": [
+    [
+     "restaurant",
+     34
+    ],
+    [
+     "cafe",
+     25
+    ],
+    [
+     "company",
+     19
+    ],
+    [
+     "supermarket",
+     9
+    ],
+    [
+     "school",
+     5
+    ],
+    [
+     "estate_agent",
+     5
+    ],
+    [
+     "wine",
+     5
+    ],
+    [
+     "electronics",
+     4
+    ],
+    [
+     "doctors",
+     4
+    ],
+    [
+     "confectionery",
+     4
+    ],
+    [
+     "mall",
+     4
+    ],
+    [
+     "clothes",
+     3
+    ],
+    [
+     "lawyer",
+     3
+    ],
+    [
+     "cosmetics",
+     3
+    ],
+    [
+     "advertising_agency",
+     3
+    ]
+   ],
+   "segmentler": {
+    "Tümü": {
+     "n": 208,
+     "olcutler": {
+      "HTTPS ile açılıyor": 96,
+      "Mobil uyum etiketi var": 96,
+      "Meta açıklama yok": 38,
+      "H1 başlığı yok": 44,
+      "Birden fazla H1": 17,
+      "İşletme şeması (yapısal veri) yok": 69,
+      "Sosyal paylaşım önizlemesi (og) yok": 41,
+      "Telefon tıklanınca aranmıyor": 50,
+      "WhatsApp bağlantısı yok": 68,
+      "Site haritası yok": 38,
+      "llms.txt var": 16,
+      "Yapay zekâ botlarından birini engelliyor": 3,
+      "Ana sayfa 3 sn üstünde yanıt veriyor": 7
+     }
+    },
+    "Yeme-içme": {
+     "n": 68,
+     "olcutler": {
+      "HTTPS ile açılıyor": 97,
+      "Mobil uyum etiketi var": 96,
+      "Meta açıklama yok": 51,
+      "H1 başlığı yok": 50,
+      "Birden fazla H1": 16,
+      "İşletme şeması (yapısal veri) yok": 75,
+      "Sosyal paylaşım önizlemesi (og) yok": 47,
+      "Telefon tıklanınca aranmıyor": 63,
+      "WhatsApp bağlantısı yok": 82,
+      "Site haritası yok": 44,
+      "llms.txt var": 13,
+      "Yapay zekâ botlarından birini engelliyor": 4,
+      "Ana sayfa 3 sn üstünde yanıt veriyor": 9
+     }
+    },
+    "Hizmet (profesyonel + sağlık)": {
+     "n": 27,
+     "olcutler": {
+      "HTTPS ile açılıyor": 89,
+      "Mobil uyum etiketi var": 96,
+      "Meta açıklama yok": 22,
+      "H1 başlığı yok": 41,
+      "Birden fazla H1": 15,
+      "İşletme şeması (yapısal veri) yok": 70,
+      "Sosyal paylaşım önizlemesi (og) yok": 37,
+      "Telefon tıklanınca aranmıyor": 37,
+      "WhatsApp bağlantısı yok": 63,
+      "Site haritası yok": 33,
+      "llms.txt var": 22,
+      "Yapay zekâ botlarından birini engelliyor": 7,
+      "Ana sayfa 3 sn üstünde yanıt veriyor": 7
+     }
+    },
+    "Perakende ve zanaat": {
+     "n": 79,
+     "olcutler": {
+      "HTTPS ile açılıyor": 96,
+      "Mobil uyum etiketi var": 94,
+      "Meta açıklama yok": 34,
+      "H1 başlığı yok": 39,
+      "Birden fazla H1": 16,
+      "İşletme şeması (yapısal veri) yok": 66,
+      "Sosyal paylaşım önizlemesi (og) yok": 38,
+      "Telefon tıklanınca aranmıyor": 44,
+      "WhatsApp bağlantısı yok": 57,
+      "Site haritası yok": 30,
+      "llms.txt var": 15,
+      "Yapay zekâ botlarından birini engelliyor": 1,
+      "Ana sayfa 3 sn üstünde yanıt veriyor": 5
+     }
+    },
+    "Büyük şirket / zincir": {
+     "n": 34,
+     "olcutler": {
+      "HTTPS ile açılıyor": 100,
+      "Mobil uyum etiketi var": 100,
+      "Meta açıklama yok": 32,
+      "H1 başlığı yok": 47,
+      "Birden fazla H1": 24,
+      "İşletme şeması (yapısal veri) yok": 65,
+      "Sosyal paylaşım önizlemesi (og) yok": 38,
+      "Telefon tıklanınca aranmıyor": 50,
+      "WhatsApp bağlantısı yok": 68,
+      "Site haritası yok": 44,
+      "llms.txt var": 18,
+      "Yapay zekâ botlarından birini engelliyor": 0,
+      "Ana sayfa 3 sn üstünde yanıt veriyor": 6
+     }
+    }
+   },
+   "osm": {
+    "sehir": "İzmir",
+    "osm_oge": 602,
+    "tekil_alan": 445,
+    "osm_zaman": "2026-10-01T21:36:19Z"
+   },
+   "ornekleme": {
+    "sehir": "İzmir",
+    "elemeden_sonra": 293,
+    "taranan": 293,
+    "ornekleme": false,
+    "tohum": 20261002,
+    "tarih": "2026-10-02"
+   }
+  }
+ }
+}
