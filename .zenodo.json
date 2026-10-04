@@ -7,7 +7,7 @@
       "affiliation": "Flatinium"
     }
   ],
-  "description": "<p><strong>EN</strong> — The home pages of 937 business websites registered on OpenStreetMap in Ankara (313), İstanbul (416) and İzmir (208) were crawled with the same code and the same 13 criteria in October 2026: click-to-call phone link, WhatsApp link, business structured data (LocalBusiness/Organization), H1, meta description, Open Graph, sitemap, llms.txt, AI crawler blocking in robots.txt, HTTPS, mobile viewport and response time. The dataset contains city × segment percentages and a machine-readable summary; the crawl code is included.</p><p>Key findings: about half of the sites do not make the phone number clickable; 62–69% have no business structured data; only 16–18% publish an llms.txt file; 1–3% block at least one AI crawler.</p><p><strong>TR</strong> — Ankara, İstanbul ve İzmir'de OpenStreetMap'te web sitesi kayıtlı 937 işletmenin ana sayfası, Ekim 2026'da aynı kod ve aynı 13 ölçütle tarandı: tıklanır telefon, WhatsApp, işletme şeması, H1, meta açıklama, Open Graph, site haritası, llms.txt, yapay zekâ botu engeli, HTTPS, mobil uyum ve yanıt süresi.</p><p>Methodology and findings / Yöntem ve bulgular: <a href=\"https://flatinium.com/en/turkey-business-websites-study-2026\">English summary</a> · <a href=\"https://flatinium.com/blog/ankara-istanbul-izmir-isletme-siteleri-arastirmasi-2026\">Türkçe araştırma yazısı</a>. Prepared by <a href=\"https://flatinium.com\">Flatinium</a>, an SEO and GEO agency in Ankara.</p>",
+  "description": "<p><strong>EN</strong> — The home pages of 937 business websites registered on OpenStreetMap in Ankara (313), İstanbul (416) and İzmir (208) were crawled with the same code and the same 13 criteria in October 2026: click-to-call phone link, WhatsApp link, business structured data (LocalBusiness/Organization), H1, meta description, Open Graph, sitemap, llms.txt, AI crawler blocking in robots.txt, HTTPS, mobile viewport and response time. The dataset contains city × segment percentages and a machine-readable summary; the crawl code is included.</p><p>Key findings: about half of the sites do not make the phone number clickable; 62–69% have no business structured data; only 16–18% publish an llms.txt file; 1–3% block at least one AI crawler.</p><p><strong>TR</strong> — Ankara, İstanbul ve İzmir'de OpenStreetMap'te web sitesi kayıtlı 937 işletmenin ana sayfası, Ekim 2026'da aynı kod ve aynı 13 ölçütle tarandı: tıklanır telefon, WhatsApp, işletme şeması, H1, meta açıklama, Open Graph, site haritası, llms.txt, yapay zekâ botu engeli, HTTPS, mobil uyum ve yanıt süresi.</p><p>Methodology and findings: <a href=\"https://flatinium.com/en/turkey-business-websites-study-2026\">English summary</a>. Prepared by Flatinium, an SEO and GEO agency in Ankara.</p>",
   "license": "cc-by-4.0",
   "access_right": "open",
   "language": "tur",
@@ -30,19 +30,9 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "https://flatinium.com/blog/ankara-istanbul-izmir-isletme-siteleri-arastirmasi-2026",
-      "relation": "isDocumentedBy",
-      "resource_type": "publication-other"
-    },
-    {
       "identifier": "https://flatinium.com/en/turkey-business-websites-study-2026",
       "relation": "isDocumentedBy",
       "resource_type": "publication-other"
-    },
-    {
-      "identifier": "https://flatinium.com/araclar/web-sitesi-kontrol",
-      "relation": "isSupplementedBy",
-      "resource_type": "software"
     }
   ],
   "notes": "Business list source: OpenStreetMap contributors (ODbL). Data: CC BY 4.0. Code in /kod: MIT."
