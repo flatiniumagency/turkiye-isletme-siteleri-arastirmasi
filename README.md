@@ -56,14 +56,24 @@ Site adları ve adresleri yayımlanmaz; depoda yalnızca toplu oranlar vardır.
 
 ## Lisans ve atıf
 
-- **Veri** (`veri/`): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.tr). Kaynak gösterilerek serbestçe kullanılabilir: *"Flatinium, Ankara–İstanbul–İzmir işletme siteleri taraması, Ekim 2026"* ve araştırma sayfasına bağlantı.
-- **Kod** (`kod/`): MIT.
-- İşletme listesi © [OpenStreetMap katkıcıları](https://www.openstreetmap.org/copyright), ODbL lisansıyla.
+| Ne | Nerede | Lisans |
+|---|---|---|
+| Ölçümler ve toplu tablolar | `veri/` | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.tr) — `LICENSE-DATA` |
+| Tarama ve analiz kodu | `kod/` | [MIT](LICENSE) |
+| İşletme örneklemi | OpenStreetMap | © [OpenStreetMap katkıcıları](https://www.openstreetmap.org/copyright), [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/) |
 
-Atıf bilgisi `CITATION.cff` dosyasında; GitHub'daki "Cite this repository" düğmesi bu dosyayı kullanır.
+`veri/` klasöründe yalnızca toplu yüzdeler ve sayılar var. İşletme adı, adres, web sitesi, koordinat ya da OSM kimliği yok. Bu tablolar ODbL'de "Produced Work" sayılır; OSM için atıf yeterlidir. `kod/osm.py` çalıştırıldığında indirilen OpenStreetMap verisi ODbL 1.0'a tabidir.
+
+**Atıf:** Işık, D. (2026). *Türkiye işletme siteleri araştırması — Ankara, İstanbul, İzmir (Ekim 2026).* Flatinium. https://flatinium.com/blog/ankara-istanbul-izmir-isletme-siteleri-arastirmasi-2026
+
+Kısa biçim: *"Kaynak: Flatinium, Ankara–İstanbul–İzmir işletme siteleri taraması, Ekim 2026 (CC BY 4.0). İşletme listesi © OpenStreetMap katkıcıları."*
+
+`CITATION.cff` dosyası GitHub'daki "Cite this repository" düğmesini besler. Ayrıntı: `NOTICE`.
 
 ---
 
 ## English summary
 
 Open dataset: SEO and conversion signals on **937 business websites** in Ankara, Istanbul and İzmir (Türkiye), scanned with identical code in October 2026. Business list from OpenStreetMap. Key findings: about half of the sites have no click-to-call phone link, roughly two thirds lack LocalBusiness/Organization structured data, and 65–76% have no WhatsApp link. Fewer than 3% block AI crawlers. Data: CC BY 4.0. Code: MIT. Methodology and limitations above (in Turkish); full write-up at https://flatinium.com/blog/ankara-istanbul-izmir-isletme-siteleri-arastirmasi-2026
+
+**License:** measurements in `veri/` CC BY 4.0 (`LICENSE-DATA`); code MIT (`LICENSE`); business sample © OpenStreetMap contributors, ODbL 1.0. The repository contains aggregate figures only (no names, URLs or coordinates). Citation: https://flatinium.com/en/turkey-business-websites-study-2026

@@ -1,0 +1,27 @@
+Türkiye business websites study — Ankara, İstanbul, İzmir (October 2026)
+Copyright (c) 2026 Flatinium — https://flatinium.com
+
+This repository contains material under different licenses:
+
+1. Code (kod/)
+   MIT License — see LICENSE.
+
+2. Measurements and aggregate tables (veri/)
+   Creative Commons Attribution 4.0 International (CC BY 4.0) — see LICENSE-DATA.
+   These files contain only aggregate percentages and counts produced by
+   Flatinium's own crawl. They contain no business names, addresses, website
+   URLs, coordinates or OpenStreetMap element IDs.
+
+3. OpenStreetMap
+   The sample of businesses was drawn from OpenStreetMap.
+   © OpenStreetMap contributors — https://www.openstreetmap.org/copyright
+   OpenStreetMap data is available under the Open Database License (ODbL 1.0).
+   The aggregate tables in veri/ are a Produced Work under ODbL §4.3 and are not
+   themselves licensed under ODbL. If you run kod/osm.py you will download
+   OpenStreetMap data, which is licensed under ODbL 1.0
+   (https://opendatacommons.org/licenses/odbl/1-0/).
+
+Suggested citation:
+Işık, D. (2026). Türkiye business websites study — Ankara, İstanbul, İzmir
+(October 2026). Flatinium.
+https://flatinium.com/en/turkey-business-websites-study-2026

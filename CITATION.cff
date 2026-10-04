@@ -10,7 +10,9 @@ authors:
     country: "TR"
 date-released: "2026-10-02"
 version: "2026.10"
-license: CC-BY-4.0
+license:
+  - CC-BY-4.0
+  - MIT
 url: "https://flatinium.com/blog/ankara-istanbul-izmir-isletme-siteleri-arastirmasi-2026"
 repository-code: "https://github.com/flatiniumagency/turkiye-isletme-siteleri-arastirmasi"
 keywords:
